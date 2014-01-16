@@ -17,6 +17,48 @@ body {
      padding: 20px;
 }
 
+
+.customContainer {
+	margin: 0 auto;
+	width:500px;
+}
+
+.thumbnail{
+	color: white;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+}
+
+.thumbnail a:hover {
+	color:#F2528D;
+}
+
+
+.thumbnail .caption{
+	color:inherit;
+    /*white-space: nowrap;*/
+    width: 480px;
+    /*overflow: hidden;
+    text-overflow: ellipsis;*/
+    position: absolute;
+    bottom: 5px;
+	z-index:4;
+	font-size:60px;
+	font-weight:100;
+	line-height: 80%;
+    /*position: absolute;
+    top: 0;
+    left: 0;*/
+    text-align: right;
+}
+.thumbnail .caption:hover{
+    position: absolute;
+	line-height: 80%;
+	text-decoration:underline;
+}
+
 .jumbotron {
 	position: relative;
 	background: none;
